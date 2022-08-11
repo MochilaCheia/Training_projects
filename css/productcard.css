@@ -4,3 +4,58 @@
     border: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    width: 650px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.imagem{
+    height: 100%;
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.informations{
+    padding: 15px;
+}
+
+.produto{
+    color: hsl(228, 12%, 48%);
+}
+
+.titulo{
+    color: hsl(212, 21%, 14%);
+}
+
+.desciption{
+    color: hsl(228, 12%, 48%);
+}
+
+.price{
+    display: flex;
+}
+
+.destacado{
+    color: hsl(158, 36%, 37%);
+}
+
+.riscado{
+    color: hsl(228, 12%, 48%);
+}
+
+.botao{
+    color: hsl(158, 36%, 37%);
+}

@@ -25,7 +25,7 @@ body{
     box-shadow: 2px 2px 24px -10px hsl(220, 15%, 55%);
 }
 
-img{
+.imagem{
     border-radius: 15px;
     width: 275px;
     height: 275px;
