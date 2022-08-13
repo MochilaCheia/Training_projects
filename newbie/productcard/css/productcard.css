@@ -28,6 +28,10 @@ body{
     border-bottom-left-radius: 10px;
 }
 
+.imagem-mobile{
+    display: none;
+}
+
 .informations{
     padding: 32px;
     display: flex;
@@ -100,4 +104,40 @@ body{
     background-color: hsl(212, 21%, 14%);
     transition: .4s;
     cursor: pointer;
+}
+
+
+@media only screen and (max-width: 960px) {
+
+    body{
+        height: 700px;
+        width: 300px;
+    }
+
+    .container{
+        width: 280px;
+        height: 640px;
+        display: block;
+    }    
+
+    .imagem{
+        display: none;
+    }
+
+    .imagem-mobile{
+        display: block;
+        height: 215px;
+        width: 280px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .informations{
+        padding: 20px;
+    }
+
+    .botao{
+        width: 240px;
+    }
+
 }
