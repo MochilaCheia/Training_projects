@@ -110,13 +110,15 @@ body{
 @media only screen and (max-width: 960px) {
 
     body{
-        height: 700px;
-        width: 300px;
+        height: 520px;
+        width: 278px;
+        align-items: flex-start;
     }
 
     .container{
-        width: 280px;
-        height: 640px;
+        width: 250px;
+        height: 526px;
+        margin-top: 18px;
         display: block;
     }    
 
@@ -126,14 +128,16 @@ body{
 
     .imagem-mobile{
         display: block;
-        height: 215px;
-        width: 280px;
+        height: 200px;
+        width: 250px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
 
     .informations{
-        padding: 20px;
+        padding: 18px;
+        height: 60%;
+        justify-content: space-around;
     }
 
     .produto{
@@ -141,11 +145,16 @@ body{
     }
 
     .titulo{
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .description{
-        font-size: 14px;
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    .price{
+        align-items: center;
     }
 
     .destacado{
@@ -153,11 +162,16 @@ body{
     }
 
     .riscado{
-        font-size: 15px;
+        font-size: 12px;
+        padding-top: 0px;
+        padding-left: 12px;
     }
 
     .botao{
-        width: 240px;
+        width: 216px;
+        height: 40px;
+        font-size: 12px;
+        border-radius: 6px;
     }
 
 }
