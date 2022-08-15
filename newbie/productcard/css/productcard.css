@@ -136,6 +136,26 @@ body{
         padding: 20px;
     }
 
+    .produto{
+        font-size: 10px;
+    }
+
+    .titulo{
+        font-size: 28px;
+    }
+
+    .description{
+        font-size: 14px;
+    }
+
+    .destacado{
+        font-size: 25px;
+    }
+
+    .riscado{
+        font-size: 15px;
+    }
+
     .botao{
         width: 240px;
     }
