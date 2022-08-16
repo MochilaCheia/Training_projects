@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 650px; 
+}
+
+.card{
+    padding: 25px;
+    background-color: hsl(213, 19%, 18%);
+    height: 350px;
+    width: 360px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.star{
+    background-color: hsl(216, 12%, 54%);
+    border-radius: 100%;
+}
+
+.titulo-card{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+
+.text-card{
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+}
+
+.avaliation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating-number{
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(217, 12%, 63%);
+    border-radius: 100%;
+}
+
+.botao{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    height: 3   2px;
+    width: 300px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    border-radius: 25px;
+}
+
+
