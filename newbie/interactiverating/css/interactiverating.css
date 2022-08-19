@@ -67,11 +67,14 @@ body{
 .rating-number:hover{
     background-color: hsl(216, 12%, 54%);
     color: hsl(0, 0%, 100%); 
+    transition: .3s;
 }
 
 .rating-number:active{
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
+    transition: .3s;
+    text-shadow: 0 0 20px hsl(25, 97%, 53%);
 }
 
 .botao{
@@ -88,6 +91,7 @@ body{
 .botao:active{
     background-color: hsl(0, 0%, 100%);
     color: hsl(25, 97%, 53%);
+    transition: .3s;
 }
 
 
