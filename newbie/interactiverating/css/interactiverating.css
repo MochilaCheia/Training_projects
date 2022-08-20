@@ -73,7 +73,7 @@ body{
 .rating-number:active{
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
-    transition: .3s;
+    transition: .2s;
     text-shadow: 0 0 20px hsl(25, 97%, 53%);
 }
 
@@ -91,7 +91,7 @@ body{
 .botao:active{
     background-color: hsl(0, 0%, 100%);
     color: hsl(25, 97%, 53%);
-    transition: .3s;
+    transition: .2s;
 }
 
 
