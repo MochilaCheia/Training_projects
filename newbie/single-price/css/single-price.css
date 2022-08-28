@@ -53,6 +53,43 @@ body{
     background-color: hsl(179, 100%, 30%);
 }
 
+.segundo-titulo{
+    color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+}
+
+.mes{
+    color: hsl(218, 22%, 67%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+
+.price{
+    color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+}
+
+.segundo-texto{
+    color: hsl(204, 43%, 93%);  
+    font-family: 'Karla', sans-serif;
+    font-weight: 400; 
+}
+
+.botao{
+    background-color: hsl(71, 73%, 54%);
+    color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+}
+
 .baixo-direita{
     background-color: hsl(179, 62%, 43%);
+}
+
+.terceiro-titulo{
+    color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
 }
