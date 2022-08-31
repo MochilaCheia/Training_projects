@@ -15,7 +15,7 @@ body{
 
 .container{
     height: 450px;
-    width: 550px;
+    width: 600px;
     border-radius: 10px;  
     -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.15); 
     box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.15);
@@ -30,6 +30,7 @@ body{
     background-color: hsl(0, 0%, 100%);
     border-radius: 8px;
     grid-row: 1/4;
+    padding: 38px;
 }
 
 .primeiro-titulo{
@@ -56,6 +57,7 @@ body{
 .baixo-esquerda{
     background-color: hsl(179, 100%, 30%);
     border-bottom-left-radius: 8px;
+    padding: 30px;
 }
 
 .segundo-titulo{
@@ -95,6 +97,7 @@ body{
 .baixo-direita{
     background-color: hsl(179, 62%, 43%);
     border-bottom-right-radius: 8px;
+    padding: 30px;
 }
 
 .terceiro-titulo{
