@@ -36,14 +36,16 @@ body{
 .primeiro-titulo{
     font-family: 'Karla', sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 24px;
+    padding-bottom: 16px;
     color: hsl(179, 100%, 30%);
 }
 
 .sub-titulo{
     font-family: 'Karla', sans-serif;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 16px;
+    padding-bottom: 8px;
     color: hsl(71, 73%, 54%);
 }
 
@@ -52,6 +54,10 @@ body{
     font-weight: 400;
     color: hsl(218, 22%, 67%);
     font-size: 16px;
+}
+
+.baixo{
+    display: flex;
 }
 
 .baixo-esquerda{
