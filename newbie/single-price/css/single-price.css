@@ -61,7 +61,7 @@ body{
 }
 
 .baixo-esquerda{
-    background-color: hsl(179, 100%, 30%);
+    background-color: hsl(179, 100%, 34%);
     border-bottom-left-radius: 8px;
     padding: 30px;
 }
@@ -70,24 +70,28 @@ body{
     color: hsl(0, 0%, 100%);  
     font-family: 'Karla', sans-serif;
     font-weight: 700;
+    font-size: 18px;
 }
 
 .mes{
     color: hsl(218, 22%, 67%);
     font-family: 'Karla', sans-serif;
     font-weight: 400;
+    font-size: 12px;
 }
 
 .price{
     color: hsl(0, 0%, 100%);  
     font-family: 'Karla', sans-serif;
     font-weight: 700;
+    font-size: 20px;
 }
 
 .segundo-texto{
     color: hsl(0, 0%, 100%);    
     font-family: 'Karla', sans-serif;
     font-weight: 400; 
+    font-size: 12px;
 }
 
 .botao{
@@ -101,7 +105,7 @@ body{
 }
 
 .baixo-direita{
-    background-color: hsl(179, 62%, 43%);
+    background-color: hsl(179, 50%, 48%);
     border-bottom-right-radius: 8px;
     padding: 30px;
 }
